@@ -1,3 +1,11 @@
+<head>
+    <style>
+        body{
+            background-color: skyblue;
+        }
+    </style>
+</head>
+
 <h1>DoiTwitter</h1>
 <form action="/tweet" method='POST'>
     {{ csrf_field() }}
